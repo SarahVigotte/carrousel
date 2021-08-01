@@ -1,0 +1,53 @@
+body{
+    background-color: #bbb;
+}
+
+.title{
+    background-color: #3F729B;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#carrousel{
+    /* position: relative; */
+    width: 100%;
+    text-align: center;
+}
+
+#carrousel ul li{
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    list-style: none;
+}
+
+.img-content{
+    margin: 0;
+    padding: 0;
+}
+
+
+.prev, .next{
+    position: absolute;
+    top: 42vh;
+    color: #3F729B;
+    transition: color .3s ease;
+}
+
+.prev{
+    left: 25vw;
+    cursor: pointer;
+}
+.prev:hover{
+    color:white;
+}
+
+.next{
+    right:25vw;
+    cursor: pointer;
+}
+.next:hover{
+    color: #3F729B;
+}
+
